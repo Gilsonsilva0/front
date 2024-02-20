@@ -12,6 +12,10 @@
         margin-top: 20px;
     }
 
+    #container{
+        width: auto;
+    }
+
     .newslatter{
         width: auto;
     }
