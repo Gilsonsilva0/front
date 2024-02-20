@@ -164,13 +164,13 @@ ul {
     }
 
     .submit {
-        width: 40%;
+        width: 50%;
         align-self: center;
     }
 
     form>input {
         align-self: center;
-        width: 65%;
+        width: 70%;
     }
 
     .imagem {
