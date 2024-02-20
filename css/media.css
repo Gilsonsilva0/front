@@ -1,0 +1,56 @@
+@media screen and (max-width:760px) {
+    #header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #principal {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .newslatter{
+        width: auto;
+    }
+
+    .newslatter h1 {
+        font-size: 40px;
+        margin-top: 20px;
+
+    }
+
+    .newslatter h2 {
+        font-size: 35px;
+
+    }
+
+
+    .newslatter p {
+        margin: 15px 0 15px 0;
+        padding: 5px 0;
+        font-size: 16px;
+        color: white;
+    }
+
+    #form{
+        margin: 0 50px 0 100px;
+    }
+    
+    #form>input{
+       width: 250px;
+    
+    }
+   
+    .imagem img{
+        width: 450px;
+        height: 380px;
+    }
+    .imagem img:hover{
+        width: 450px;
+        height: 380px;
+        animation:  none;
+    }
+    }

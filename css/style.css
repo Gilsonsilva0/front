@@ -1,0 +1,177 @@
+
+*{
+    
+    box-sizing: border-box;  
+}
+
+body{
+    background-color: #232123;
+    font-family: poppins;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    
+}
+
+
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#logo>h1{
+    color: white;
+    font-weight: 250;
+    font-size: 40px;
+    margin: 0;
+    line-height: 33px;
+}
+
+#logo{
+    display: flex;
+   flex-direction: column;
+   line-height: 1px;
+}
+
+
+
+#principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.newslatter{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    width: 570px;
+    margin-bottom: 30px;
+}
+
+.newslatter h2>span{
+    color: #7316AE;
+    font-size: 60px;
+    font-weight: bold;
+    
+    
+}
+
+.newslatter h2{
+    color: #ffffff;
+    font-size: 56px;
+    line-height: 50px;
+    margin: 0;
+}
+
+.newslatter p{
+    padding: 5px 0;
+    font-size: 18px;
+    color: white;
+
+}
+
+
+#form{
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+
+form>input{
+    padding-left: 10px;
+    width: 60%;
+    height: 50px;
+    border-radius: 18px;
+    border:  none;
+    margin: 0;
+    
+
+}
+
+.submit{
+    width: 30%;
+    text-align: center;
+    padding: 0;
+    background-color: #7316AE;
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.submit:hover{
+    width: 30%;
+    text-align: center;
+    padding: 0;
+    background-color: #ffffff;
+    color: #7316AE;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+
+
+
+
+/*------------------------------------------*/
+.imagem{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 570px;
+}
+
+.imagem img:hover{
+    width: 550px;
+    height: 430px;
+   animation-name: rotate;
+   animation-duration: 1s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+
+
+}
+
+
+
+@keyframes rotate {
+
+0% {
+    transform: rotate(0deg);
+}
+100% {
+    transform: rotate(5deg);
+}
+}
+
+/*links----------------------------------*/
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+#nav>ul>li>a{
+    font-size: 1.3em;
+    color: white;
+    padding: 15px;
+}
+
+#nav>ul>li{
+    display: inline-block;
+    margin: 15px
+    
+}
+
+#nav>ul>li>a:hover{
+    border: 2px solid #7316AE;
+    border-radius: 15px;
+}
